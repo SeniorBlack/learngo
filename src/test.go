@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	var a int = 100
-	fmt.Print(a)
-	fmt.Print("Hello, World!")
+	var a [2]int = [2]int{1, 2}
+	fmt.Println(a[0])
+
 }
